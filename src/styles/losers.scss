@@ -1,0 +1,15 @@
+.losers-figures {
+    display: flex;
+    justify-content: space-between;
+    width: calc(80px * 8);
+} 
+.losers {
+    margin-top: 30px;
+    width: 45%;
+    background: rgb(182, 166, 166);
+    padding: 20px 10px;
+    img {
+        height: 30px;
+        width: 30px;
+    }
+}

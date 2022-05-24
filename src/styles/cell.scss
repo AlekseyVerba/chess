@@ -1,0 +1,35 @@
+.cell {
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &--white {
+        background-color: rgb(223, 190, 190);
+    }
+    &--black {
+        background-color: rgb(94, 76, 76);
+    }
+
+    &--available {
+        background-color: rgb(5, 238, 36);
+    }
+    
+    &--choosen {
+        background-color: rgb(138, 77, 156);
+    }
+
+ 
+
+    img {
+        height: 65px;
+        width: 65px;
+    }
+}
+
+.cell__available {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(5, 238, 36);
+    border-radius: 100%;
+}
